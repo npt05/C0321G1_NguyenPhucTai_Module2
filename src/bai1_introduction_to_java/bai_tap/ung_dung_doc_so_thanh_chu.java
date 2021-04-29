@@ -118,13 +118,14 @@ public class ung_dung_doc_so_thanh_chu {
         if (number.length() <= 0) {
             System.out.println("Out of ability.");
         } else if (number.length() < 2) {
-            if (number == "0") {
+            if (number.charAt(0) == '0') {
                 System.out.println("Zero");
+            }else {
+                System.out.println(checkOnes(number));
             }
-            System.out.println(checkOnes(number));
         } else if (number.length() < 3) {
             if (number.charAt(0) == '1') {
-                String str = number.substring(1, 2);
+                String str = number.substring(0, 2);
                 System.out.println(check(str));
             } else {
                 String str = number.substring(0, 1);
