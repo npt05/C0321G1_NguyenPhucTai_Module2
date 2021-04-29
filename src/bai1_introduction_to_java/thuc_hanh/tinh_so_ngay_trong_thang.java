@@ -2,7 +2,7 @@ package bai1_introduction_to_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class thuc_hanh_tinh_so_ngay_trong_thang {
+public class tinh_so_ngay_trong_thang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Which month that you want to count days? ");

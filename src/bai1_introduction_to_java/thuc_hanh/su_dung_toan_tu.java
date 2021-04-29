@@ -2,7 +2,7 @@ package bai1_introduction_to_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class thuc_hanh_su_dung_toan_tu {
+public class su_dung_toan_tu {
     public static void main(String[] args) {
         float width;
         float height;
