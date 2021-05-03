@@ -48,12 +48,12 @@ public class hien_thi_cac_loai_hinh {
                 case 3:
                     System.out.print("Enter heigth is an odd number: ");
                     int heigth = scanner.nextInt();
-                    if(heigth%2==0){
+                    if (heigth % 2 == 0) {
                         System.out.println("Can't draw the scale.");
-                    }else {
+                    } else {
                         for (int i = 0; i < heigth; i++) {
-                            for (int j = 0; j < (2 * heigth-1); j++) {
-                                if (j >= 4 - i && j <= 4 + i) {
+                            for (int j = 0; j < (2 * heigth - 1); j++) {
+                                if (j >= heigth - 1 - i && j <= heigth - 1 + i) {
                                     System.out.print("*");
                                 } else {
                                     System.out.print(" ");
