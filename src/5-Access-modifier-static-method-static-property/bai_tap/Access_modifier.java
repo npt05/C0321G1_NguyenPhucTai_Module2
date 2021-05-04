@@ -1,4 +1,4 @@
-package bai5_access_modifier_static_method_static_property.bai_tap;
+﻿package bai5_access_modifier_static_method_static_property.bai_tap;
 
 public class Access_modifier {
     public static class Circle {

@@ -1,6 +1,5 @@
-package bai2_vong_lap_trong_java.thuc_hanh;
 
-import java.util.DoubleSummaryStatistics;
+
 import java.util.Scanner;
 
 public class ung_dung_tinh_tien_lai_cho_vay {

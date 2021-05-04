@@ -1,4 +1,4 @@
-package bai1_introduction_to_java.thuc_hanh;
+
 
 public class Khai_bao_va_su_dung_bien {
     public static void main(String[] args) {

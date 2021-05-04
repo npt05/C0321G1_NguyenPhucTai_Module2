@@ -1,6 +1,4 @@
-package bai4_lop_va_doi_tuong_trong_java.bai_tap;
 
-import com.sun.org.apache.bcel.internal.generic.FASTORE;
 
 public class Xay_dung_lop_fan {
     public static class Fan {

@@ -1,4 +1,4 @@
-package bai2_vong_lap_trong_java.bai_tap;
+
 
 import java.util.Scanner;
 

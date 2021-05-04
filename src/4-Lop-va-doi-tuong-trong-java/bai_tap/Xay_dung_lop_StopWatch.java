@@ -1,4 +1,3 @@
-package bai4_lop_va_doi_tuong_trong_java.bai_tap;
 import java.util.Arrays;
 
 public class Xay_dung_lop_StopWatch {

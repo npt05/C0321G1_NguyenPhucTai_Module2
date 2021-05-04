@@ -1,4 +1,3 @@
-package bai5_access_modifier_static_method_static_property.thuc_hanh;
 
 public class Static_method {
     public static class Student {
