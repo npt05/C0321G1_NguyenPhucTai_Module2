@@ -55,11 +55,11 @@ public class XayDungLopFan {
 
         public String toString() {
             if (this.on) {
-                return "Status: " + this.on + "\n Speed: " + this.speed + "fan is on "
-                        + "\n Color: " + this.color + "\n Radius: " + this.radius;
+                return "Status: " + this.on + "\n Speed: " + this.speed
+                        + "\n Color: " + this.color + "\n Radius: " + this.radius + "\n fan is on";
             } else {
-                return "Status: " + this.on + "\n Speed: " + this.speed + "fan is off "
-                        + "\n Color: " + this.color + "\n Radius: " + this.radius;
+                return "Status: " + this.on + "\n Speed: " + this.speed
+                        + "\n Color: " + this.color + "\n Radius: " + this.radius + "\n fan is off";
             }
 
         }
