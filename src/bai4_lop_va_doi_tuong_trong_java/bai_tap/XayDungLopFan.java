@@ -11,37 +11,62 @@ public class XayDungLopFan {
         private double radius = 5;
         private String color = "blue";
 
-        public Fan(){
+        public Fan() {
         }
-        public boolean getOn(){
+
+        public boolean getOn() {
+
             return this.on;
         }
-        public int getSpeed(){
+
+        public int getSpeed() {
+
             return this.speed;
         }
-        public double getRadius(){
+
+        public double getRadius() {
             return this.radius;
         }
-        public String getColor(){
+
+        public String getColor() {
+
             return color;
         }
-        public void setOn(boolean value){
+
+        public void setOn(boolean value) {
+
             this.on = value;
         }
-        public void setSpeed(int speed){
+
+        public void setSpeed(int speed) {
+
             this.speed = speed;
         }
-        public void setRadius(double radius){
+
+        public void setRadius(double radius) {
+
             this.radius = radius;
         }
-        public void setColor(String color){
+
+        public void setColor(String color) {
+
             this.color = color;
         }
-        public String toString(){
-            return "Status: " + this.on + "\n Speed: " + this.speed
-                    + "\n Color: " + this.color +"\n Radius: " + this.radius;
+
+        public String toString() {
+            if (this.on) {
+                return "Status: " + this.on + "\n Speed: " + this.speed + "fan is on "
+                        + "\n Color: " + this.color + "\n Radius: " + this.radius;
+            } else {
+                return "Status: " + this.on + "\n Speed: " + this.speed + "fan is off "
+                        + "\n Color: " + this.color + "\n Radius: " + this.radius;
+            }
+
         }
+
+
     }
+
     public static void main(String[] args) {
         Fan fan1 = new Fan();
         Fan fan2 = new Fan();
