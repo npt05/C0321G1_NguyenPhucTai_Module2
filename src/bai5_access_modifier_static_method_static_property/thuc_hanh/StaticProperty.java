@@ -1,4 +1,4 @@
-package bai5_access_modifier_static_method_static_property.thuc_hanh.thuc_hanh;
+package bai5_access_modifier_static_method_static_property.thuc_hanh;
 
 public class StaticProperty {
     public static class Car {
