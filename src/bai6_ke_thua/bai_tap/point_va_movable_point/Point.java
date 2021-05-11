@@ -1,4 +1,4 @@
-package bai6_ke_thua.bai_tap.Point_va_MovablePoint;
+package bai6_ke_thua.bai_tap.point_va_movable_point;
 
 import java.util.Arrays;
 
