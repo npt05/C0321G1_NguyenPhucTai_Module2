@@ -1,4 +1,4 @@
-package bai8_clean_code_refactoring.thuc_hanh.refactoring_doi_ten_bien_tach_hang;
+package bai8_clean_code_refactoring.thuc_hanh.rename_value_split_const;
 
 public class CalculatorTest {
     public static void main(String[] args) {
