@@ -11,21 +11,19 @@ public class CountInWords {
         System.out.println("nhap vao 1 chuoi: ");
         String string = "toi La Trinh Van HUy toi la huy";
         String [] ArrStr = string.split(" ");
-
-
         Map<String,Integer> map = new TreeMap<String,Integer>();
 
         for (String str : ArrStr){
             str = str.toLowerCase();
-            int countKey = 1;
+            if(str.equals("")){
+                continue;
+            }
 
             if (map.containsKey(str)){
-                countKey ++;
-                map.put(str,countKey);
+                int value = map.get(str)+1;
+                map.put(str,value);
             } else
-                map.put(str,countKey);
-
-
+                map.put(str,1);
         }
         for (Map.Entry<String,Integer> entry : map.entrySet())
             System.out.println(entry.getKey() + " : " + entry.getValue());
