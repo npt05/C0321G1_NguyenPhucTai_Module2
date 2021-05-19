@@ -7,10 +7,10 @@ public class CheckBracket {
     public CheckBracket(String string) {
     }
 
-    public boolean chekBracket(String exp) {
-        int length = exp.length();
+    public boolean chekBracket(String brackets) {
+        int length = brackets.length();
         Stack<String> stack = new Stack<>();
-        String[] sym = exp.split("");
+        String[] sym = brackets.split("");
 
         for (int i = 0; i < length; i++) {
             if (sym[i].equals("(")) {
