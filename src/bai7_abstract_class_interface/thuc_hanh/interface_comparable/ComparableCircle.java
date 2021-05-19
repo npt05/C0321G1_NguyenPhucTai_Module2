@@ -1,6 +1,6 @@
 package bai7_abstract_class_interface.thuc_hanh.interface_comparable;
 
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape.Circle;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.shape.Circle;
 
 
 public class ComparableCircle extends Circle

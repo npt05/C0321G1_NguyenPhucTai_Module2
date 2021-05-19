@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.bai_tap.interfacecomparator;
+package bai7_abstract_class_interface.bai_tap.interface_comparator;
 
 import javafx.scene.shape.Circle;
 

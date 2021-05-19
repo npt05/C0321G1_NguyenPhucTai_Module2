@@ -1,9 +1,9 @@
-package bai7_abstract_class_interface.bai_tap.interfaceresizeable;
+package bai7_abstract_class_interface.bai_tap.interface_resizeable;
 
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape.Circle;
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape.Rectangle;
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape.Shape;
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape.Square;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.shape.Circle;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.shape.Rectangle;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.shape.Shape;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.shape.Square;
 
 public class TestResizeable {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape;
+package bai7_abstract_class_interface.bai_tap.interface_resizeable.shape;
 
 public class Rectangle extends Shape {
     private double width = 1.0;

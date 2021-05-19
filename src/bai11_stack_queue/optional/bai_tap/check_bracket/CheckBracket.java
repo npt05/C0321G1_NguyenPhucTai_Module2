@@ -1,6 +1,6 @@
 package bai11_stack_queue.optional.bai_tap.check_bracket;
 
-import java.util.Scanner;
+
 import java.util.Stack;
 
 public class CheckBracket {

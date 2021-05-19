@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape;
+package bai7_abstract_class_interface.bai_tap.interface_resizeable.shape;
 
 public class Square extends Rectangle {
     public Square() {

@@ -1,6 +1,6 @@
-package bai7_abstract_class_interface.bai_tap.interfaceresizeable.shape;
+package bai7_abstract_class_interface.bai_tap.interface_resizeable.shape;
 
-import bai7_abstract_class_interface.bai_tap.interfaceresizeable.Resizeable;
+import bai7_abstract_class_interface.bai_tap.interface_resizeable.Resizeable;
 
 public abstract class Shape implements Resizeable {
     private String color = "green";
