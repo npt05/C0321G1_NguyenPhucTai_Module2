@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.thuc_hanh.interfacecomparable;
+package bai7_abstract_class_interface.thuc_hanh.interface_comparable;
 
 import java.util.Arrays;
 

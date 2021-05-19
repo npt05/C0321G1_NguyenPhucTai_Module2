@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape;
+package bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape;
 
 public class Rectangle extends Shape {
     private double width = 1.0;

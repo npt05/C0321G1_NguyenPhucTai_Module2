@@ -1,4 +1,4 @@
-package bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape;
+package bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape;
 
 public class Circle extends Shape {
     private double radius = 1.0;

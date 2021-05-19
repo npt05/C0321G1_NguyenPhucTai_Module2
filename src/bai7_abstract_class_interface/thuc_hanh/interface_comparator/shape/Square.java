@@ -1,8 +1,8 @@
-package bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape;
+package bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape;
 
-import bai7_abstract_class_interface.thuc_hanh.interfacecolorable.Colorable;
+import bai7_abstract_class_interface.thuc_hanh.interface_comparator.Comparator;
 
-public class Square extends Rectangle implements Colorable {
+public class Square extends Rectangle implements Comparator {
     public Square() {
     }
 

@@ -1,11 +1,11 @@
-package bai7_abstract_class_interface.thuc_hanh.interfacecolorable;
+package bai7_abstract_class_interface.thuc_hanh.interface_comparator;
 
-import bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape.Circle;
-import bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape.Rectangle;
-import bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape.Shape;
-import bai7_abstract_class_interface.thuc_hanh.interfacecolorable.shape.Square;
+import bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape.Circle;
+import bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape.Rectangle;
+import bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape.Shape;
+import bai7_abstract_class_interface.thuc_hanh.interface_comparator.shape.Square;
 
-public class ColorableTest {
+public class ComparatorTest {
     public static void main(String[] args) {
         Shape[] shapes = new Shape[3];
         shapes[0] = new Circle(1.0);
