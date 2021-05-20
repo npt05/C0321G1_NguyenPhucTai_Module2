@@ -5,6 +5,5 @@ public class PalindromeCheckTest {
         PalindromeCheck check = new PalindromeCheck();
 
         System.out.println(check.isElementStackVsQueueEquals());
-
     }
 }

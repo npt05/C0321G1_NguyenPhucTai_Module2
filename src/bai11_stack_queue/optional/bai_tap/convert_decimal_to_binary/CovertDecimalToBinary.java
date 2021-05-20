@@ -21,7 +21,6 @@ public class CovertDecimalToBinary {
         return binary;
     }
 
-
     private int chiaLayPhanNguyen(int number) {
         return number / 2;
     }
@@ -31,8 +30,8 @@ public class CovertDecimalToBinary {
         int phanNguyen = number;
         int soDu;
         int size = 0;
-
         Stack<Integer> stack = new Stack<>();
+
         do {
             soDu = phanNguyen % 2;
             stack.push(soDu);
@@ -40,7 +39,6 @@ public class CovertDecimalToBinary {
             if (phanNguyen > 0) {
                 phanNguyen = chiaLayPhanNguyen(phanNguyen);
             }
-
         } while (phanNguyen != 0);
 
         for (int i = 0; i < size; i++) {
@@ -53,8 +51,8 @@ public class CovertDecimalToBinary {
         StringBuilder string = new StringBuilder();
         double phanLe;
         int bit;
-
         double result = number;
+
         do {
             result = result * 2;
             bit = tachPhanNguyen(result);
@@ -74,6 +72,4 @@ public class CovertDecimalToBinary {
     private int tachPhanNguyen(double number) {
         return (int) number;
     }
-
-
 }

@@ -7,7 +7,6 @@ class MyLinkedListQueue {
     public MyLinkedListQueue (){
         this.head = null;
         this.tail = null;
-
     }
 
     public class Node {
@@ -18,7 +17,6 @@ class MyLinkedListQueue {
             this.key = key;
             this.next = null;
         }
-
     }
 
     public void enqueue(int key){
@@ -47,7 +45,6 @@ class MyLinkedListQueue {
         if (head == null)
             return null;
         StringBuilder result = new StringBuilder("[" + head.key);
-
         int i = 0;
         while (temp.next != null) {
             result.append(", ");
@@ -55,7 +52,6 @@ class MyLinkedListQueue {
             result.append(temp.key);
             i++;
         }
-
         return result.toString() + "]";
     }
 }

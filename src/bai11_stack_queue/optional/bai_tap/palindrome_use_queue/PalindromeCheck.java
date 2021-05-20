@@ -9,7 +9,6 @@ public class PalindromeCheck {
     private java.lang.String string;
     private String[] stringArrays;
 
-
     public PalindromeCheck() {
         setString();
         stringToArray();
@@ -46,6 +45,7 @@ public class PalindromeCheck {
         boolean isEquals = true;
         String stackElementPop;
         String queueElementPool;
+
         for (int i = 0; i < this.stringArrays.length; i++) {
             stackElementPop = stack.pop();
             queueElementPool = queue.poll();
