@@ -1,4 +1,4 @@
-package bai10_danh_sach.bai_tap.aray_list_theo_thu_vien;
+package bai10_danh_sach.bai_tap.aray_list_by_library;
 
 import bai10_danh_sach.bai_tap.array_list_va_linked_list.MyAbstractList;
 

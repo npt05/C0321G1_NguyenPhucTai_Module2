@@ -1,4 +1,4 @@
-package bai14_thuat_toan_sap_xep.bai_tap.minh_hoa_thuat_toan_sap_xep_chen;
+package bai14_thuat_toan_sap_xep.bai_tap.illustration_insertion_sort;
 
 import java.util.Arrays;
 

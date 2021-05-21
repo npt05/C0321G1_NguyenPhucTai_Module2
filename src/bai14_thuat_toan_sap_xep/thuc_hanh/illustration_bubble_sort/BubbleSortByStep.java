@@ -1,4 +1,4 @@
-package bai14_thuat_toan_sap_xep.thuc_hanh.minh_hoa_thuat_toan_sap_xep_noi_bot;
+package bai14_thuat_toan_sap_xep.thuc_hanh.illustration_bubble_sort;
 
 import java.util.Scanner;
 

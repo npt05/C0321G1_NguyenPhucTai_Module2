@@ -1,4 +1,4 @@
-package bai10_danh_sach.bai_tap.linked_list_theo_thu_vien;
+package bai10_danh_sach.bai_tap.linked_list_by_library;
 
 public class MyLinkedList<E> {
     private int numNode;

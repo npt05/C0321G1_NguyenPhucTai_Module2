@@ -1,4 +1,4 @@
-package bai10_danh_sach.bai_tap.aray_list_theo_thu_vien;
+package bai10_danh_sach.bai_tap.aray_list_by_library;
 
 public class MyListTest {
     public static void main(String[] args) {

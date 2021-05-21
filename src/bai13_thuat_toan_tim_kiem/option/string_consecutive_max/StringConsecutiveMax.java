@@ -1,9 +1,9 @@
-package bai13_thuat_toan_tim_kiem.option.chuoi_lien_tiep_max;
+package bai13_thuat_toan_tim_kiem.option.string_consecutive_max;
 
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class ChuoiLienTiepMax {
+public class StringConsecutiveMax {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         LinkedList<Character> listMax = new LinkedList<>();

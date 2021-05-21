@@ -1,4 +1,4 @@
-package bai11_stack_queue.bai_tap.stack_dao_nguoc_phan_tu;
+package bai11_stack_queue.bai_tap.stack_invert_element;
 
 
 import java.util.Arrays;

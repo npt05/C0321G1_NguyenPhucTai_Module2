@@ -1,4 +1,4 @@
-package bai14_thuat_toan_sap_xep.bai_tap.cai_dat_thuat_toan_sap_xep_chen;
+package bai14_thuat_toan_sap_xep.bai_tap.setting_insertion_sort;
 
 public class InsertionSort {
     private static int[] arr = {5, 7, 9, 3, 4, 1, 8};

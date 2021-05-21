@@ -1,4 +1,4 @@
-package bai13_thuat_toan_tim_kiem.option.tinh_do_phuc_tap_thuat_toan;
+package bai13_thuat_toan_tim_kiem.option.caculate_algorithm_complexity;
 
 import java.util.Scanner;
 

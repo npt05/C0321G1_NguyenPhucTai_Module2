@@ -1,4 +1,4 @@
-package bai13_thuat_toan_tim_kiem.option.cai_dat_thuat_toan_tim_kiem_nhi_phan_su_dung_de_quy;
+package bai13_thuat_toan_tim_kiem.option.settting_binary_search_use_recursive;
 
 public class NhinPhanDeQuy {
     static int[] list = {2, 4, 7, 10, 11, 45, 50, 59, 60, 66, 69, 70, 79};

@@ -1,4 +1,4 @@
-package bai14_thuat_toan_sap_xep.thuc_hanh.cai_dat_thuat_toan_sap_xep_noi_bot;
+package bai14_thuat_toan_sap_xep.thuc_hanh.setting_bubble_sort;
 
 public class BubbleSort {
     static int[] list = {2, 3, 2, 5, 6, 1, -2, 3, 14, 12};
