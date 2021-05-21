@@ -8,8 +8,10 @@ public class ProductManager {
     ArrayList<Product> productArrayList = new ArrayList<>();
 
     public boolean add(Product p){
-        if (productArrayList.add(p))
+        if (productArrayList.add(p)){
             return true;
+        }
+
         return false;
     }
 
@@ -18,24 +20,25 @@ public class ProductManager {
         int choice;
         boolean result = true;
         Product currentProduct = getProductById(productID);
-        if (currentProduct == null)
+        if (currentProduct == null){
             return false;
+        }
 
         while (result) {
-            System.out.println("cho thong tin can sua: ");
-            System.out.println("1. ten san pham ");
-            System.out.println("2. gia san pham ");
-            System.out.println("0. thoat ");
+            System.out.println("Chọn thông tin cần sửa: ");
+            System.out.println("1. Tên sản phẩm ");
+            System.out.println("2. Giá sản phẩm ");
+            System.out.println("0. Thoát ");
             choice = sc.nextInt();
             sc.nextLine();
             switch (choice) {
                 case 1:
-                    System.out.println("nhap ten moi cho san pham: ");
+                    System.out.println("Nhập tên mới cho sản phẩm: ");
                     String newName = sc.nextLine();
                     currentProduct.setProductName(newName);
                     break;
                 case 2:
-                    System.out.println("nhap gia moi cho san pham: ");
+                    System.out.println("Nhập giá mới cho sản phẩm: ");
                     int newPrice = sc.nextInt();
                     currentProduct.setProductPrice(newPrice);
                     break;
@@ -43,11 +46,12 @@ public class ProductManager {
                     result = false;
                     break;
                 default:
-                    System.out.println("chon sai");
+                    System.out.println("Mòi nhập lại");
             }
         }
         return true;
     }
+
     public boolean edit(int productID,String newName,int newPrice){
         Product currentProduct = getProductById(productID);
         if (currentProduct == null)
@@ -99,6 +103,7 @@ public class ProductManager {
         });
 
     }
+
     public void sortDescending(){
         Collections.sort(productArrayList, new Comparator<Product>() {
             @Override
