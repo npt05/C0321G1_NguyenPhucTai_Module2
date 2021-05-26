@@ -1,82 +1,53 @@
 package bai15_ngoai_le_debug.bai_tap.illegal_triangle_exception;
 
-import java.util.Scanner;
-
 public class Triangle {
-    private double side1 = 1.0;
-    private double side2 = 1.0;
-    private double side3 = 1.0;
+    private int a;
+    private int b;
+    private int c;
 
-    public Triangle(double side1, double side2, double side3) throws IllegalTriangleException {
-        if (side1 >= side2 + side3)
-            throw new IllegalTriangleException(side1);
-        else if (side2 >= side1 + side3)
-            throw new IllegalTriangleException(side2);
-        else if (side3 >= side2 + side1)
-            throw new IllegalTriangleException(side3);
-        else {
-            this.side1 = side1;
-            this.side2 = side2;
-            this.side3 = side3;
+    public Triangle(int a, int b, int c) throws IllegalTriangleException {
+        if (a <= 0 || b <= 0 || c <= 0) {
+            throw new IllegalTriangleException("cạnh tam giác phải khác 0  ");
+        } else if ((a + b <= c) || (a + c) <= b || (b + c) <= a) {
+            throw new IllegalTriangleException("trong 1 tam giác tổng 2 cạnh luôn lớn hơn 1 cạnh");
+        } else {
+            this.a = a;
+            this.b = b;
+            this.c = c;
         }
+
     }
 
-    public Triangle() throws IllegalTriangleException {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("enter side1: ");
-        double side1 = scanner.nextDouble();
-        System.out.println("enter side2: ");
-        double side2 = scanner.nextDouble();
-        System.out.println("enter side3: ");
-        double side3 = scanner.nextDouble();
-        if (side1 >= side2 + side3)
-            throw new IllegalTriangleException(side1);
-        else if (side2 >= side1 + side3)
-            throw new IllegalTriangleException(side2);
-        else if (side3 >= side2 + side1)
-            throw new IllegalTriangleException(side3);
-        else {
-            this.side1 = side1;
-            this.side2 = side2;
-            this.side3 = side3;
-        }
+    public int getA() {
+        return a;
     }
 
-    public double getSide1() {
-        return side1;
+    public void setA(int a) {
+        this.a = a;
     }
 
-    public void setSide1(double side1) {
-        this.side1 = side1;
+    public int getB() {
+        return b;
     }
 
-    public double getSide2() {
-        return side2;
+    public void setB(int b) {
+        this.b = b;
     }
 
-    public void setSide2(double side2) {
-        this.side2 = side2;
+    public int getC() {
+        return c;
     }
 
-    public double getSide3() {
-        return side3;
+    public void setC(int c) {
+        this.c = c;
     }
 
-    public void setSide3(double side3) {
-        this.side3 = side3;
-    }
-
-    public double getArea() {
-        double p = getPerimeter() / 2;
-        return Math.sqrt(p * ((p - side1) * (p - side2) * (p - side3)));
-    }
-
-    public double getPerimeter() {
-        return side1 + side2 + side3;
-    }
-
+    @Override
     public String toString() {
-        return " Triangle: Side 1 = " + side1 + " Side 2 = " + side2
-                + " Side 3 = " + side3;
+        return "Triangle:" +
+                "a=" + a +
+                ", b=" + b +
+                ", c=" + c
+                ;
     }
 }

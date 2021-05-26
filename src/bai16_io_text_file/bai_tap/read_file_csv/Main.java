@@ -1,4 +1,4 @@
-package bai16_text_file.bai_tap.read_file_csv;
+package bai16_io_text_file.bai_tap.read_file_csv;
 
 import java.io.*;
 import java.util.ArrayList;

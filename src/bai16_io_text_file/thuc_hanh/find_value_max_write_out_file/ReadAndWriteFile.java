@@ -1,4 +1,4 @@
-package bai16_text_file.thuc_hanh.find_value_max_write_out_file;
+package bai16_io_text_file.thuc_hanh.find_value_max_write_out_file;
 
 import java.io.*;
 import java.util.ArrayList;

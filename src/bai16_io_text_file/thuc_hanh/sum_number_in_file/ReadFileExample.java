@@ -1,4 +1,4 @@
-package bai16_text_file.thuc_hanh.sum_number_in_file;
+package bai16_io_text_file.thuc_hanh.sum_number_in_file;
 
 import java.io.*;
 
